@@ -31,7 +31,7 @@
   });
 
   $('#volume-control input').on('input', function (event){
-    player.skipTo(event.target.value);
+    player.setVolume(event.target.value);
   });
 
   setInterval( ()=>{
